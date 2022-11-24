@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    background-color:  rgb(95, 82, 82);
+    width: 100vw;
+    right: 0;
+    top: 0;
+    position: fixed;
+
+}
+
+main {
+    width: 300px;
+    background-color: blue;
+    margin-top: 100px;
+}
