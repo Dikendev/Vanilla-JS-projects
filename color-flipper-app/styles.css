@@ -17,18 +17,18 @@ nav {
     right: 0;
     top: 0;
     position: fixed;
-    
+    padding-top: 7px;
+    padding-bottom: 7px;
     border-radius: 5px;
     padding-left: 15px;
     padding-right: 15px;
-
     box-shadow: 0.2px 0.2px 20px 1px;
 }
 
 nav .nav-center {
     display: flex;
     justify-content: space-between;
-    
+    align-items: center;
 }
 
 nav .nav-center>h4{
@@ -62,15 +62,19 @@ main .container h2 {
 
 main .container button {
     font-size: 1.2rem;
-    background-color: aliceblue;
+
     padding: 0.5rem 1.3rem 0.5rem 1.3rem;
     border: 2px solid black;
     border-radius: 5px;
     font-weight: 600;
     cursor: pointer;
-
 }
 
 main .container button:hover {
-    background-color: rgb(211, 226, 241);
+    background-color: rgb(162, 169, 177);
+}
+
+main .container button:active {
+    background-color: rgb(63, 62, 62);
+    color: white;
 }
