@@ -59,12 +59,12 @@ main .container .review {
     width: inherit;    
 }
 
-main .container .review .img-container {
+/* main .container .review .img-container {
    width: 144px;
-}
+} */
 
 main .container .review .img-container img {
-    width: -webkit-fill-available;
+    width: 9.5rem!important;
     border-radius: 50%;
     box-shadow: 9px -5px rgb(93, 51, 247);
 }
@@ -78,7 +78,9 @@ main .container .review p {
     text-align: justify;
 }
 
-.prev-btn {
+
+
+.prev-btn, .next-btn {
     width: 3rem;
     font-size: 1.2rem;
     border: none;
