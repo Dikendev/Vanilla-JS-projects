@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+main .container {
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#job, .title {
+    color:  rgb(93, 51, 247);
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.title h2 {
+    font-size: 2rem;
+}
+
+.undeline {
+    width: 50px;
+    background-color: rgb(93, 51, 247);
+    height: 3px;
+    border: none;
+}
+
+main .container .review {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    border: none;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 4px 4px 11px 2px rgb(101 74 112 / 29%);
+    width: inherit;    
+}
+
+main .container .review .img-container {
+   width: 144px;
+}
+
+main .container .review .img-container img {
+    width: -webkit-fill-available;
+    border-radius: 50%;
+    box-shadow: 9px -5px rgb(93, 51, 247);
+}
+
+main .container .review h4 {
+    font-size: 1.2rem;
+    font-weight: 700;    
+}
+
+main .container .review p {
+    text-align: justify;
+}
+
+.prev-btn {
+    width: 3rem;
+    font-size: 1.2rem;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    color: rgb(93, 51, 247);
+    border: 1px solid white;
+    border-radius: 15px;
+    padding: 1px;
+}
+
+.prev-btn:hover {
+    border: 1px solid;
+}
+
+.prev-btn:active {
+    color: #fff;
+    background-color: rgb(93, 51, 247);
+    border: none;
+}
+
+main .container .review .random-btn {
+    padding: 3px 6px;
+    color: rgb(93, 51, 247);
+    border: 1px solid rgb(93, 51, 247);
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+main .container .review .random-btn:hover {
+    background-color: rgb(203, 221, 248);
+}
+
+main .container .review .random-btn:active {
+    color: #fff;
+    background-color: rgb(93, 51, 247);
+}
